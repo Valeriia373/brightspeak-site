@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BrightSpeak — Підготовка до іспитів</title>
+<style>
+  /* Загальні стилі */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #eaf6fb;
+    color: #333;
+    line-height: 1.6;
+  }
+  /* Шапка */
+  header {
+    background-color: #A6C8FF;
+    padding: 20px 40px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    color: #1a3f72;
+    user-select: none;
+  }
+  nav {
+    margin-top: 15px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #114a85;
+    font-weight: 600;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #062a48;
+  }
+  main {
+    max-width: 900px;
+    margin: 30px auto 60px;
+    padding: 0 20px;
+  }
+  /* Розділи */
+  section {
+    margin-bottom: 50px;
+  }
+  h2 {
+    color: #0f3b67;
+    border-bottom: 2px solid #62a0d7;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+  /* Інтерактивний блок - акордеон */
+  .accordion {
+    background-color: #cde5fc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-weight: 600;
+    color: #0f3b67;
+    user-select: none;
+    transition: background-color 0.3s ease;
+  }
+  .accordion:hover {
+    background-color: #a4c4f9;
+  }
+  .accordion.active {
+    background-color: #8bb2f7;
+  }
+  .panel {
+    padding: 0 20px 20px;
+    background: #eaf6fb;
+    display: none;
+    font-weight: 400;
+    color: #1a3f72;
+  }
+  /* Кнопка повернення вгору */
+  #topBtn {
+    display: none;
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4c90ff;
+    color: white;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+  #topBtn:hover {
+    background-color: #1f57d4;
+  }
+  /* Плавне з'явлення */
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.2s forwards;
+  }
+  @keyframes fadeInAnimation {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BrightSpeak — Підготовка до іспитів</h1>
+  <nav>
+    <a href="index.html">Головна</a>
+    <a href="courses.html">Курси</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="teachers.html">Викладачі</a>
+  </nav>
+</header>
+
+
+<main>
+  <section class="fade-in">
+    <h2>Чому важливо готуватися до іспитів з BrightSpeak?</h2>
+    <p>
+      Наш сервіс пропонує комплексну підготовку до найпопулярніших міжнародних та національних іспитів з англійської мови. Ми допомагаємо покращити всі мовні навички — слухання, говоріння, читання та письмо — завдяки сучасним методикам та інтерактивним матеріалам. 
+    </p>
+    <p>
+      Підготовка з BrightSpeak — це не просто навчання, а інвестиція у майбутнє, адже правильна здача іспиту відкриває двері до навчання за кордоном, кар’єрного зростання та нових можливостей.
+    </p>
+  </section>
+
+  <section class="fade-in">
+    <h2>Що входить у курс підготовки?</h2>
+    <div class="accordion">Розділ 1: Граматика та лексика</div>
+    <div class="panel">
+      <p>Ретельне вивчення граматичних правил, розвиток словникового запасу, робота з помилками та типові завдання іспитів.</p>
+    </div>
+    <div class="accordion">Розділ 2: Техніки читання та аудіювання</div>
+    <div class="panel">
+      <p>Покращення навичок розуміння текстів різного рівня складності та аудіоматеріалів, тренування швидкості читання та сприйняття на слух.</p>
+    </div>
+    <div class="accordion">Розділ 3: Практика письма та говоріння</div>
+    <div class="panel">
+      <p>Підготовка до письмових завдань іспитів та розвиток навичок усного мовлення з використанням живих діалогів і симуляцій.</p>
+    </div>
+  </section>
+
+  <section class="fade-in">
+    <h2>Переваги нашого сервісу</h2>
+    <p>
+      Викладачі BrightSpeak — це професіонали з багаторічним досвідом, які індивідуально підходять до кожного учня. Ви отримуєте не лише теорію, а й багато практики, що допомагає впевнено здавати іспити. Система дозволяє відстежувати прогрес та отримувати зворотний зв’язок у реальному часі.
+    </p>
+    <p>
+      Вся навчальна інформація доступна 24/7, що робить процес підготовки максимально зручним та гнучким. Крім того, інтерактивні завдання та тести підтримують мотивацію і дозволяють краще засвоювати матеріал.
+    </p>
+  </section>
+
+  <section class="fade-in">
+    <h2>Як почати?</h2>
+    <p>Ви можете розпочати підготовку просто зараз, обравши відповідний курс у розділі «Курси». Не зволікайте, адже найкращий час — це сьогодні!</p>
+  </section>
+</main>
+
+<button id="topBtn" title="Вверх">&#8679;</button>
+
+<script>
+    // Акордеон
+    const acc = document.querySelectorAll(".accordion");
+    acc.forEach(el => {
+        el.addEventListener("click", () => {
+            el.classList.toggle("active");
+            const panel = el.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    });
+
+    // Кнопка повернення вгору
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = () => {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            topBtn.style.display = "block";
+        } else {
+            topBtn.style.display = "none";
+        }
+    };
+    topBtn.onclick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
+
+</body>
+</html>
